@@ -6,10 +6,10 @@ export function HeaderComponent() {
     <Header>
       <Image src={Logo} alt="Imagem logo" />
       <Nav>
-        <Link href="/">Comunidade Ballerini</Link>
-        <Link href="/">Tutorial</Link>
-        <Link href="/">Open Source</Link>
-        <Link href="/">Comandos</Link>
+        <Link href="/a">Comunidade Ballerini</Link>
+        <Link href="/a">Tutorial</Link>
+        <Link href="/a">Open Source</Link>
+        <Link href="/a">Comandos</Link>
       </Nav>
     </Header>
   );

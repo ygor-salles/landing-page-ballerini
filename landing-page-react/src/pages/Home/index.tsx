@@ -13,13 +13,18 @@ import {
 } from "./styles";
 
 export function HomePage() {
+  const handleAdd = () => {
+    // eslint-disable-next-line no-alert
+    alert("Adicionado");
+  };
+
   return (
     <Main>
       <SectionPrimary>
         <Content>
           <Title>Balle Bot</Title>
           <SubTitle>Deixe a sua comunidade segura de um jeito fácil</SubTitle>
-          <Button>Me adicione!</Button>
+          <Button onClick={handleAdd}>Me adicione!</Button>
         </Content>
         <ImageBalleBot src={BalleBotSvg} alt="Imagem Balle Bot" />
       </SectionPrimary>
