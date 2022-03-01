@@ -27,8 +27,8 @@ export const Nav = styled.nav`
 `;
 
 export const Link = styled.a`
-  font-family: 'Sarala', sans-serif;
+  font-family: "Sarala", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  color: #FFF2E7;
+  color: #fff2e7;
 `;

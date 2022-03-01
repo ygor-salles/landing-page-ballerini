@@ -3,5 +3,5 @@ export const Colors = {
   details: "#3bd42d",
   subtitles: "#a191ff",
   button: "#25cbd3",
-  color: "#fff"
-}
+  color: "#fff",
+};
